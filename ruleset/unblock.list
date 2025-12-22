@@ -13,6 +13,30 @@ DOMAIN-SUFFIX,jrtx.tech
 DOMAIN-SUFFIX,openrouter.ai
 
 # --------------------------------------------------
+# Immersive Translate (ONLY self & static)
+# --------------------------------------------------
+
+# Core
+DOMAIN-SUFFIX,immersivetranslate.com
+DOMAIN-SUFFIX,immersive-translate.com
+DOMAIN-SUFFIX,immersivetranslate.cn
+
+# Config / Meta
+DOMAIN-SUFFIX,api.immersivetranslate.com
+DOMAIN-SUFFIX,config.immersivetranslate.com
+
+# Static assets / fonts (UI stability)
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,unpkg.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+
+# Browser extension metadata
+DOMAIN-SUFFIX,addons.mozilla.org
+DOMAIN-SUFFIX,clients2.google.com
+DOMAIN-SUFFIX,clients4.google.com
+
+# --------------------------------------------------
 # Alibaba Group
 # --------------------------------------------------
 
