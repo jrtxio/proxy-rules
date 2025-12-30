@@ -7,6 +7,9 @@
 # --------------------------------------------------
 
 # My Blog
+DOMAIN-SUFFIX,jrtx.site
+
+# My Server
 DOMAIN-SUFFIX,jrtx.tech
 
 # OpenRouter
