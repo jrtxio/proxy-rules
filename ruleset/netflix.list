@@ -3,7 +3,6 @@
 # ==========================
 
 # ---- Core ----
-DOMAIN,netflix.com
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
 
@@ -17,10 +16,6 @@ DOMAIN-SUFFIX,nflxvideo.net
 # ---- CDN / Streaming ----
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,prod.fastly.netflix.net
-
-# ---- DRM / Playback ----
-DOMAIN-SUFFIX,widevine.com
-DOMAIN-SUFFIX,widevine.net
 
 # ---- Telemetry / Control ----
 DOMAIN-SUFFIX,nflxstatus.com

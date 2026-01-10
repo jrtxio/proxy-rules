@@ -52,16 +52,12 @@ DOMAIN-SUFFIX,qqmusic.com
 # Tencent Games
 DOMAIN-SUFFIX,game.qq.com
 DOMAIN-SUFFIX,ieg.com
-DOMAIN-SUFFIX,riotgames.com.cn
 
 # Tencent Cloud
 DOMAIN-SUFFIX,tencent-cloud.com
 DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,tencentyun.com
-DOMAIN-SUFFIX,cos.ap-beijing.myqcloud.com
-DOMAIN-SUFFIX,cos.ap-shanghai.myqcloud.com
-DOMAIN-SUFFIX,cos.ap-guangzhou.myqcloud.com
 
 # Tencent CDN
 DOMAIN-SUFFIX,gtimg.com
@@ -84,17 +80,10 @@ DOMAIN-SUFFIX,alipan.com
 # Alibaba CDN / OSS
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,aliyuncdn.com
-DOMAIN-SUFFIX,oss-cn-hangzhou.aliyuncs.com
-DOMAIN-SUFFIX,oss-cn-shanghai.aliyuncs.com
-DOMAIN-SUFFIX,oss-cn-beijing.aliyuncs.com
-DOMAIN-SUFFIX,oss-cn-shenzhen.aliyuncs.com
-DOMAIN-SUFFIX,oss-cn-guangzhou.aliyuncs.com
 
 # Taobao / Tmall
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tmall.com
-DOMAIN-SUFFIX,tmall.hk
-DOMAIN-SUFFIX,1688.com
 
 # Alipay / Payment
 DOMAIN-SUFFIX,alipay.com
@@ -110,18 +99,15 @@ DOMAIN-SUFFIX,dingtalkapps.com
 
 # Youku / UC
 DOMAIN-SUFFIX,youku.com
-DOMAIN-SUFFIX,ucweb.com
-DOMAIN-SUFFIX,uc.cn
 
-# ---- JD Group ----
+# JD Group
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,360buy.com
 DOMAIN-SUFFIX,jdcloud.com
 DOMAIN-SUFFIX,jdcdn.com
 DOMAIN-SUFFIX,jdimg.com
-DOMAIN-SUFFIX,jdpay.com
 
-# ---- Baidu Group ----
+# Baidu Group
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,baidu.cn
 DOMAIN-SUFFIX,bdstatic.com
@@ -129,21 +115,6 @@ DOMAIN-SUFFIX,baidustatic.com
 DOMAIN-SUFFIX,baiducontent.com
 DOMAIN-SUFFIX,pcs.baidu.com
 DOMAIN-SUFFIX,yun.baidu.com
-DOMAIN-SUFFIX,haokan.baidu.com
-DOMAIN-SUFFIX,tieba.baidu.com
-
-# ---- Meituan Group ----
-DOMAIN-SUFFIX,meituan.com
-DOMAIN-SUFFIX,dianping.com
-DOMAIN-SUFFIX,meituan.net
-DOMAIN-SUFFIX,meituanimg.com
-DOMAIN-SUFFIX,imeituan.com
-
-# ---- Pinduoduo ----
-DOMAIN-SUFFIX,pinduoduo.com
-DOMAIN-SUFFIX,pddpic.com
-DOMAIN-SUFFIX,pddimg.com
-DOMAIN-SUFFIX,pddcdn.com
 
 # ---- NetEase Group ----
 DOMAIN-SUFFIX,163.com
@@ -158,51 +129,7 @@ DOMAIN-SUFFIX,mail.163.com
 DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,iesdouyin.com
+
+# ---- Other Common Services ----
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,xiaohongshu.com
-
-# ---- Common Services ----
-
-# E-commerce
-DOMAIN-SUFFIX,vip.com
-DOMAIN-SUFFIX,suning.com
-DOMAIN-SUFFIX,gome.com.cn
-
-# Travel
-DOMAIN-SUFFIX,ctrip.com
-DOMAIN-SUFFIX,fliggy.com
-DOMAIN-SUFFIX,qunar.com
-DOMAIN-SUFFIX,ly.com
-
-# Local Life
-DOMAIN-SUFFIX,ele.me
-DOMAIN-SUFFIX,koubei.com
-
-# Education
-DOMAIN-SUFFIX,zhihuishu.com
-DOMAIN-SUFFIX,koolearn.com
-DOMAIN-SUFFIX,tencentclass.com
-
-# ---- Common CDN & Infrastructure ----
-
-# Domestic CDN
-DOMAIN-SUFFIX,jsdelivr.net
-DOMAIN-SUFFIX,unpkg.com
-DOMAIN-SUFFIX,cdn.jsdelivr.net
-DOMAIN-SUFFIX,fastly.net
-
-# Cloud Services
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflareinsights.com
-
-# ---- Browser Extensions ----
-DOMAIN-SUFFIX,addons.mozilla.org
-DOMAIN-SUFFIX,clients2.google.com
-DOMAIN-SUFFIX,clients4.google.com
-
-# ---- Immersive Translate ----
-DOMAIN-SUFFIX,immersivetranslate.com
-DOMAIN-SUFFIX,immersive-translate.com
-DOMAIN-SUFFIX,immersivetranslate.cn
-DOMAIN-SUFFIX,api.immersivetranslate.com
-DOMAIN-SUFFIX,config.immersivetranslate.com

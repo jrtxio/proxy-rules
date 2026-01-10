@@ -23,16 +23,6 @@ DOMAIN-SUFFIX,ton.twimg.com
 DOMAIN-SUFFIX,abs.twimg.com
 DOMAIN-SUFFIX,api.twitter.com
 
-# ---- Other Social ----
-DOMAIN-SUFFIX,signal.org
-DOMAIN-SUFFIX,line.me
-DOMAIN-SUFFIX,snapchat.com
-DOMAIN-SUFFIX,tumblr.com
-DOMAIN-SUFFIX,pinterest.com
-DOMAIN-SUFFIX,reddit.com
-DOMAIN-SUFFIX,vk.com
-DOMAIN-SUFFIX,ok.ru
-
 # ---- Knowledge / Info ----
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
@@ -43,12 +33,26 @@ DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wikidata.org
 
-# ---- Cloud / Tools ----
-DOMAIN-SUFFIX,dropbox.com
-DOMAIN-SUFFIX,slideshare.net
+# ---- Development Communities ----
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,stackexchange.com
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,registry.npmjs.org
+DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,registry-1.docker.io
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,dev.to
 DOMAIN-SUFFIX,medium.com
-DOMAIN-SUFFIX,quora.com
+DOMAIN-SUFFIX,mdn.dev
+DOMAIN-SUFFIX,developer.mozilla.org
+DOMAIN-SUFFIX,stackoverflow.blog
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,gitlab.io
+DOMAIN-SUFFIX,bitbucket.org
+
+# ---- Cloud / Tools ----
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,raw.githubusercontent.com
 DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,bitbucket.org
 

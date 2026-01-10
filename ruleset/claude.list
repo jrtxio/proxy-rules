@@ -3,28 +3,12 @@
 # ==========================
 
 # ---- Core ----
-DOMAIN,claude.ai
-DOMAIN,www.claude.ai
-DOMAIN,console.anthropic.com
-DOMAIN,docs.anthropic.com
+DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,anthropic.com
-
-# ---- API ----
-DOMAIN,api.anthropic.com
 
 # ---- Auth / Assets ----
 DOMAIN-SUFFIX,anthropiccdn.com
 
 # ---- Static / CDN ----
-DOMAIN,*.anthropic-cdn.com
-
-# ---- Monitoring ----
-# Used by Anthropic for observability
-DOMAIN-SUFFIX,honeycomb.io
-
-# ---- Third-party Services ----
-# Used for customer support and messaging
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,intercomassets.com
+DOMAIN-SUFFIX,anthropic-cdn.com
 

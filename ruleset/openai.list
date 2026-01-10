@@ -3,17 +3,6 @@
 # ==========================
 
 # ---- Core ----
-DOMAIN,openai.com
-DOMAIN,www.openai.com
-DOMAIN,chat.openai.com
-DOMAIN,chatgpt.com
-DOMAIN,www.chatgpt.com
-DOMAIN,platform.openai.com
-DOMAIN,status.openai.com
-DOMAIN,gateway.openai.com
-
-# ---- API ----
-DOMAIN,api.openai.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
 
@@ -21,7 +10,5 @@ DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openaiusercontent.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
-
-# ---- Images / Audio ----
 DOMAIN-SUFFIX,openai-cdn.com
 

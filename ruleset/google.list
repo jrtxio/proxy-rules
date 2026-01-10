@@ -3,9 +3,7 @@
 # ==========================
 
 # ---- Gemini ----
-DOMAIN,gemini.google.com
-DOMAIN,gemini.googleapis.com
-DOMAIN,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,googleapis.com
 
 # ---- Core Google ----
 DOMAIN-SUFFIX,google.com
@@ -16,22 +14,10 @@ DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,withgoogle.com
 
-# ---- Auth / Account ----
-DOMAIN,accounts.google.com
-DOMAIN,myaccount.google.com
-DOMAIN,signin.google.com
-
-# ---- Web / API ----
-DOMAIN,apis.google.com
-DOMAIN,www.google.com
-DOMAIN,encrypted.google.com
-
 # ---- WebSocket / Realtime ----
 DOMAIN-SUFFIX,clients.google.com
-DOMAIN-SUFFIX,clients1.google.com
-DOMAIN-SUFFIX,clients2.google.com
 
-# ---- YouTube（可选）----
+# ---- YouTube ----
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,googlevideo.com
