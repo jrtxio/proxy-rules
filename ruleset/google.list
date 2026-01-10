@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,googletagmanager.com
 
 # ---- Auth / Account ----
 DOMAIN,accounts.google.com
