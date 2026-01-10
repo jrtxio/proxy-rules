@@ -2,25 +2,16 @@
 # China Mainland - Direct
 # ==========================
 
-# --------------------------------------------------
-# Custom Group
-# --------------------------------------------------
+# ---- Custom Group ----
 
-# My Blog
+# MyService
 DOMAIN-SUFFIX,jrtx.site
-
-# My Server
 DOMAIN-SUFFIX,jrtx.tech
 
 # OpenRouter
 DOMAIN-SUFFIX,openrouter.ai
 
-# 100ask
-DOMAIN-SUFFIX,100ask.net
-
-# --------------------------------------------------
-# Immersive Translate (ONLY self & static)
-# --------------------------------------------------
+# ---- Immersive Translate (ONLY self & static) ----
 
 # Core
 DOMAIN-SUFFIX,immersivetranslate.com
@@ -42,9 +33,7 @@ DOMAIN-SUFFIX,addons.mozilla.org
 DOMAIN-SUFFIX,clients2.google.com
 DOMAIN-SUFFIX,clients4.google.com
 
-# --------------------------------------------------
-# Alibaba Group
-# --------------------------------------------------
+# ---- Alibaba Group ----
 
 # Core
 DOMAIN-SUFFIX,alibaba.com
@@ -84,26 +73,18 @@ DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,ucweb.com
 DOMAIN-SUFFIX,uc.cn
 
-# --------------------------------------------------
-# Tencent Group
-# --------------------------------------------------
+# ---- Tencent Group ----
 
-# ==========================
 # Tencent Core
-# ==========================
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tencent-cloud.com
 
-# ==========================
 # Tencent Cloud
-# ==========================
 DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,tencentyun.com
 
-# ==========================
 # CDN / Static / COS
-# ==========================
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,file.myqcloud.com
@@ -111,44 +92,32 @@ DOMAIN-SUFFIX,cos.ap-beijing.myqcloud.com
 DOMAIN-SUFFIX,cos.ap-shanghai.myqcloud.com
 DOMAIN-SUFFIX,cos.ap-guangzhou.myqcloud.com
 
-# ==========================
 # WeChat / Weixin
-# ==========================
 DOMAIN-SUFFIX,weixin.qq.com
 DOMAIN-SUFFIX,wx.qq.com
 DOMAIN-SUFFIX,wechat.com
 
-# ==========================
 # WeCom / 企业微信
-# ==========================
 DOMAIN-SUFFIX,wecom.cn
 DOMAIN-SUFFIX,work.weixin.qq.com
 DOMAIN-SUFFIX,wxwork.weixin.qq.com
 DOMAIN-SUFFIX,open.work.weixin.qq.com
 
-# ==========================
 # QQ / IM
-# ==========================
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,im.qq.com
 
-# ==========================
 # Video / Music
-# ==========================
 DOMAIN-SUFFIX,v.qq.com
 DOMAIN-SUFFIX,video.qq.com
 DOMAIN-SUFFIX,y.qq.com
 
-# ==========================
 # Games
-# ==========================
 DOMAIN-SUFFIX,game.qq.com
 DOMAIN-SUFFIX,ieg.com
 DOMAIN-SUFFIX,riotgames.com.cn
 
-# ==========================
 # Finance / Others
-# ==========================
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,cloud.tencent.com
 

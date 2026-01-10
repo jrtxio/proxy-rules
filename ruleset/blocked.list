@@ -1,12 +1,12 @@
 # ==========================
-# Custom
+# Blocked Domains
 # ==========================
+
+# ---- Custom ----
 DOMAIN-SUFFIX,yinwang.org
 DOMAIN-KEYWORD,v2ex
 
-# ==========================
-# Social & Communication
-# ==========================
+# ---- Social & Communication ----
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,messenger.com
@@ -23,6 +23,7 @@ DOMAIN-SUFFIX,ton.twimg.com
 DOMAIN-SUFFIX,abs.twimg.com
 DOMAIN-SUFFIX,api.twitter.com
 
+# ---- Other Social ----
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,snapchat.com
@@ -32,17 +33,7 @@ DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,vk.com
 DOMAIN-SUFFIX,ok.ru
 
-# ==========================
-# Adult / NSFW
-# ==========================
-DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,xvideos.com
-DOMAIN-SUFFIX,redtube.com
-DOMAIN-SUFFIX,brazzers.com
-
-# ==========================
-# Knowledge / Info
-# ==========================
+# ---- Knowledge / Info ----
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wiktionary.org
@@ -52,9 +43,7 @@ DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wikidata.org
 
-# ==========================
-# Cloud / Tools
-# ==========================
+# ---- Cloud / Tools ----
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,slideshare.net
 DOMAIN-SUFFIX,medium.com

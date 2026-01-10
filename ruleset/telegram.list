@@ -1,24 +1,24 @@
 # ==========================
 # Telegram Core
 # ==========================
+
+# ---- Core ----
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,telegra.ph
-
-# ==========================
-# Web / CDN
-# ==========================
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telesco.pe
 
-# ==========================
-# API / Bot
-# ==========================
+# ---- API / Bot ----
 DOMAIN,api.telegram.org
+DOMAIN,botapi.telegram.org
 
-# ==========================
-# Media CDN
-# ==========================
+# ---- Media CDN ----
 DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,cdn.telegram.org
+DOMAIN-SUFFIX,cdn1.telegram.org
+DOMAIN-SUFFIX,cdn2.telegram.org
+DOMAIN-SUFFIX,cdn3.telegram.org
+DOMAIN-SUFFIX,cdn4.telegram.org
 

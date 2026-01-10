@@ -1,33 +1,35 @@
-# =====================================
+# ==========================
 # Google / Gemini (Force Proxy)
-# =====================================
+# ==========================
 
-# Gemini
+# ---- Gemini ----
 DOMAIN,gemini.google.com
+DOMAIN,gemini.googleapis.com
+DOMAIN,generativelanguage.googleapis.com
 
-# Core Google
+# ---- Core Google ----
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,ggpht.com
 
-# Auth / Account
+# ---- Auth / Account ----
 DOMAIN,accounts.google.com
 DOMAIN,myaccount.google.com
 DOMAIN,signin.google.com
 
-# Web / API
+# ---- Web / API ----
 DOMAIN,apis.google.com
 DOMAIN,www.google.com
 DOMAIN,encrypted.google.com
 
-# WebSocket / Realtime
+# ---- WebSocket / Realtime ----
 DOMAIN-SUFFIX,clients.google.com
 DOMAIN-SUFFIX,clients1.google.com
 DOMAIN-SUFFIX,clients2.google.com
 
-# YouTube（可选）
+# ---- YouTube（可选）----
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,googlevideo.com

@@ -5,14 +5,16 @@
 # ---- Core ----
 DOMAIN,claude.ai
 DOMAIN,www.claude.ai
+DOMAIN,console.anthropic.com
+DOMAIN,docs.anthropic.com
+DOMAIN-SUFFIX,anthropic.com
 
 # ---- API ----
 DOMAIN,api.anthropic.com
 
 # ---- Auth / Assets ----
-DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,anthropiccdn.com
 
 # ---- Static / CDN ----
-DOMAIN-SUFFIX,cloudfront.net
+DOMAIN,*.anthropic-cdn.com
 
