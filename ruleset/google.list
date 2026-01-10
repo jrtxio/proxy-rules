@@ -14,6 +14,7 @@ DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,withgoogle.com
 
 # ---- Third-party Services ----
 # Used by Google Gemini for sidebar content
