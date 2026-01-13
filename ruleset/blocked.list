@@ -53,6 +53,7 @@ DOMAIN-SUFFIX,bitbucket.org
 # ---- Cloud / Tools ----
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,raw.githubusercontent.com
+DOMAIN-SUFFIX,github.githubassets.com
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,bitbucket.org
 
