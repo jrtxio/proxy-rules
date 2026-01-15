@@ -57,3 +57,6 @@ DOMAIN-SUFFIX,github.githubassets.com
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,bitbucket.org
 
+# ---- AI Services ----
+DOMAIN-SUFFIX,openrouter.ai
+
