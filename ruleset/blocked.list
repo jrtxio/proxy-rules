@@ -57,6 +57,10 @@ DOMAIN-SUFFIX,github.githubassets.com
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,bitbucket.org
 
-# ---- AI Services ----
-DOMAIN-SUFFIX,openrouter.ai
+# ---- GitHub Copilot ----
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,copilot.githubusercontent.com
+DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
+
+
 
