@@ -142,6 +142,16 @@ DOMAIN-SUFFIX,aweme.com
 DOMAIN-SUFFIX,dytt.com
 DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,huoshan.com
+DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,bytednsdoc.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,bytedance.net
+DOMAIN-SUFFIX,bytedance.org
+DOMAIN-SUFFIX,ttcdn.cn
+DOMAIN-SUFFIX,ttimg.cn
+DOMAIN-SUFFIX,ttqimg.com
+DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,bytecenter.com
 
 # ---- Other Common Services ----
 DOMAIN-SUFFIX,zhihu.com
