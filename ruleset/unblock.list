@@ -14,9 +14,11 @@ DOMAIN-SUFFIX,weixin.qq.com
 DOMAIN-SUFFIX,wx.qq.com
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,wximg.com
+DOMAIN-SUFFIX,wximg.qq.com
 DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,mmbiz.qpic.cn
 DOMAIN-SUFFIX,mmbizlog.qpic.cn
+DOMAIN-SUFFIX,mmupload.qpic.cn
 
 # WeChat Mini Program
 DOMAIN-SUFFIX,servicewechat.com
