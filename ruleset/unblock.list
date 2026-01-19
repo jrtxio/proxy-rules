@@ -32,7 +32,7 @@ DOMAIN-SUFFIX,wxpay.wx.com
 DOMAIN-SUFFIX,wxpayapp.com
 DOMAIN-SUFFIX,wxpaybs.weixin.qq.com
 
-# WeCom / 企业微信
+# WeCom
 DOMAIN-SUFFIX,wecom.cn
 DOMAIN-SUFFIX,work.weixin.qq.com
 DOMAIN-SUFFIX,wxwork.weixin.qq.com
@@ -195,3 +195,11 @@ DOMAIN-SUFFIX,chinacache.com
 DOMAIN-SUFFIX,ksyun.com
 DOMAIN-SUFFIX,dnspod.cn
 DOMAIN-SUFFIX,cloudflare-cn.com
+
+# ---- Apple Music ----
+# Apple Music
+DOMAIN,cma2.itunes.apple.com
+DOMAIN,gsa.itunes.apple.com
+DOMAIN,metrics.apple.com
+DOMAIN-SUFFIX,music.apple.com
+DOMAIN-SUFFIX,apple.com.cn
