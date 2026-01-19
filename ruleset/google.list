@@ -3,7 +3,6 @@
 # ==========================
 
 # ---- Gemini ----
-DOMAIN-SUFFIX,googleapis.com
 
 # ---- Core Google ----
 DOMAIN-SUFFIX,google.com
