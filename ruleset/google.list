@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,withgoogle.com
+DOMAIN-SUFFIX,google
 
 # ---- WebSocket / Realtime ----
 DOMAIN-SUFFIX,clients.google.com
