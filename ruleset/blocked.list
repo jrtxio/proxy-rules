@@ -58,6 +58,8 @@ DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,raw.githubusercontent.com
 DOMAIN-SUFFIX,github.githubassets.com
 DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,formulae.brew.sh
+DOMAIN-SUFFIX,brew.sh
 
 # ---- GitHub Copilot ----
 DOMAIN-SUFFIX,githubcopilot.com
