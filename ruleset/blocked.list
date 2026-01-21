@@ -51,7 +51,7 @@ DOMAIN-SUFFIX,gitlab.io
 DOMAIN-SUFFIX,bitbucket.org
 DOMAIN-SUFFIX,pub.dev
 DOMAIN-SUFFIX,dart.dev
-DOMAIN-SUFFIX,storage.googleapis.com
+
 
 # ---- Cloud / Tools ----
 DOMAIN-SUFFIX,github.com
