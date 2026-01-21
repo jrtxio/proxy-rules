@@ -36,6 +36,7 @@ DOMAIN-SUFFIX,wikidata.org
 # ---- Development Communities ----
 DOMAIN-SUFFIX,stackoverflow.com
 DOMAIN-SUFFIX,stackexchange.com
+DOMAIN-SUFFIX,stackoverflow.blog
 DOMAIN-SUFFIX,npmjs.com
 DOMAIN-SUFFIX,registry.npmjs.org
 DOMAIN-SUFFIX,pypi.org
@@ -45,7 +46,6 @@ DOMAIN-SUFFIX,dev.to
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,mdn.dev
 DOMAIN-SUFFIX,developer.mozilla.org
-DOMAIN-SUFFIX,stackoverflow.blog
 DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,gitlab.io
 DOMAIN-SUFFIX,bitbucket.org
@@ -58,7 +58,6 @@ DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,raw.githubusercontent.com
 DOMAIN-SUFFIX,github.githubassets.com
 DOMAIN-SUFFIX,gitlab.com
-DOMAIN-SUFFIX,bitbucket.org
 
 # ---- GitHub Copilot ----
 DOMAIN-SUFFIX,githubcopilot.com
