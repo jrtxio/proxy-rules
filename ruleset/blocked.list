@@ -57,10 +57,26 @@ DOMAIN-SUFFIX,github.githubassets.com
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,bitbucket.org
 
-# ---- GitHub Copilot ----
+## ---- GitHub Copilot ----
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,copilot.githubusercontent.com
 DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
+
+# ---- Apple Services ----
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,lookup-api.apple.com
+DOMAIN-SUFFIX,me.com
+PROCESS-NAME,storedownloadd
+USER-AGENT,com.apple.appstored*
 
 
 

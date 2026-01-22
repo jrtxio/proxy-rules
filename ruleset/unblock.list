@@ -197,15 +197,15 @@ DOMAIN-SUFFIX,dnspod.cn
 DOMAIN-SUFFIX,cloudflare-cn.com
 
 # ---- Zhiyuan / GLM ----
-# GLM (智谱 AI) related domains
 DOMAIN-SUFFIX,z.ai
 DOMAIN-SUFFIX,api.z.ai
 DOMAIN-SUFFIX,bigmodel.cn
 
 # ---- Apple Music ----
-# Apple Music
 DOMAIN,cma2.itunes.apple.com
 DOMAIN,gsa.itunes.apple.com
 DOMAIN,metrics.apple.com
 DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,store.apple.com
