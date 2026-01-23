@@ -3,7 +3,6 @@
 # ==========================
 
 # ---- Custom Services ----
-# My Own Services
 DOMAIN-SUFFIX,jrtx.site
 DOMAIN-SUFFIX,jrtx.tech
 
@@ -132,7 +131,7 @@ DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,iesdouyin.com
 DOMAIN-SUFFIX,bytedance.com
-DOMAIN-SUFFIX,trae.com
+DOMAIN-SUFFIX,trae.com.cn
 DOMAIN-SUFFIX,trae.bytedance.com
 DOMAIN-SUFFIX,feishu.cn
 DOMAIN-SUFFIX,feishu.io

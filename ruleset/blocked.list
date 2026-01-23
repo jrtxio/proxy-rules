@@ -2,10 +2,6 @@
 # Blocked Domains
 # ==========================
 
-# ---- Custom ----
-DOMAIN-SUFFIX,yinwang.org
-DOMAIN-KEYWORD,v2ex
-
 # ---- Social & Communication ----
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fb.com
@@ -32,6 +28,7 @@ DOMAIN-SUFFIX,wikinews.org
 DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,yinwang.org
 
 # ---- Development Communities ----
 DOMAIN-SUFFIX,stackoverflow.com
@@ -51,7 +48,7 @@ DOMAIN-SUFFIX,gitlab.io
 DOMAIN-SUFFIX,bitbucket.org
 DOMAIN-SUFFIX,pub.dev
 DOMAIN-SUFFIX,dart.dev
-
+DOMAIN-KEYWORD,v2ex
 
 # ---- Cloud / Tools ----
 DOMAIN-SUFFIX,github.com
@@ -65,6 +62,7 @@ DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,copilot.githubusercontent.com
 DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
+DOMAIN-SUFFIX,zread.ai
 
 # ---- Apple Services ----
 DOMAIN-SUFFIX,apps.apple.com
