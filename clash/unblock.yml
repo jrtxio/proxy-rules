@@ -1,10 +1,15 @@
 # ==========================
 # China Mainland - Direct
 # ==========================
+
 # ---- Custom Services ----
 payload:
   - 'DOMAIN-SUFFIX,jrtx.site'
   - 'DOMAIN-SUFFIX,jrtx.tech'
+
+  # ---- Tencent Group ----
+
+  # WeChat / Weixin Core
   - 'DOMAIN-SUFFIX,weixin.qq.com'
   - 'DOMAIN-SUFFIX,wx.qq.com'
   - 'DOMAIN-SUFFIX,wechat.com'
@@ -14,61 +19,97 @@ payload:
   - 'DOMAIN-SUFFIX,mmbiz.qpic.cn'
   - 'DOMAIN-SUFFIX,mmbizlog.qpic.cn'
   - 'DOMAIN-SUFFIX,mmupload.qpic.cn'
+
+  # WeChat Mini Program
   - 'DOMAIN-SUFFIX,servicewechat.com'
   - 'DOMAIN-SUFFIX,mp.weixin.qq.com'
   - 'DOMAIN-SUFFIX,mini.weixin.qq.com'
+
+  # WeChat Pay
   - 'DOMAIN-SUFFIX,qqpay.qq.com'
   - 'DOMAIN-SUFFIX,pay.weixin.qq.com'
   - 'DOMAIN-SUFFIX,wxpay.wx.com'
   - 'DOMAIN-SUFFIX,wxpayapp.com'
   - 'DOMAIN-SUFFIX,wxpaybs.weixin.qq.com'
+
+  # WeCom
   - 'DOMAIN-SUFFIX,wecom.cn'
   - 'DOMAIN-SUFFIX,work.weixin.qq.com'
   - 'DOMAIN-SUFFIX,wxwork.weixin.qq.com'
   - 'DOMAIN-SUFFIX,open.work.weixin.qq.com'
+
+  # QQ / IM
   - 'DOMAIN-SUFFIX,qq.com'
   - 'DOMAIN-SUFFIX,im.qq.com'
   - 'DOMAIN-SUFFIX,qqmail.com'
   - 'DOMAIN-SUFFIX,foxmail.com'
+
+  # Tencent Video / Music
   - 'DOMAIN-SUFFIX,v.qq.com'
   - 'DOMAIN-SUFFIX,video.qq.com'
   - 'DOMAIN-SUFFIX,y.qq.com'
   - 'DOMAIN-SUFFIX,qqmusic.qq.com'
   - 'DOMAIN-SUFFIX,qqmusic.com'
+
+  # Tencent Games
   - 'DOMAIN-SUFFIX,game.qq.com'
   - 'DOMAIN-SUFFIX,ieg.com'
+
+  # Tencent Cloud
   - 'DOMAIN-SUFFIX,tencent-cloud.com'
   - 'DOMAIN-SUFFIX,qcloud.com'
   - 'DOMAIN-SUFFIX,myqcloud.com'
   - 'DOMAIN-SUFFIX,tencentyun.com'
+
+  # Tencent CDN
   - 'DOMAIN-SUFFIX,gtimg.com'
   - 'DOMAIN-SUFFIX,qpic.cn'
   - 'DOMAIN-SUFFIX,file.myqcloud.com'
+
+  # ---- Alibaba Group ----
+
+  # Alibaba Core
   - 'DOMAIN-SUFFIX,alibaba.com'
   - 'DOMAIN-SUFFIX,alibaba-inc.com'
   - 'DOMAIN-SUFFIX,alibabagroup.com'
+
+  # Alibaba Cloud
   - 'DOMAIN-SUFFIX,aliyun.com'
   - 'DOMAIN-SUFFIX,aliyuncs.com'
   - 'DOMAIN-SUFFIX,alicloud.com'
   - 'DOMAIN-SUFFIX,alipan.com'
+
+  # Alibaba CDN / OSS
   - 'DOMAIN-SUFFIX,alicdn.com'
   - 'DOMAIN-SUFFIX,aliyuncdn.com'
+
+  # Taobao / Tmall
   - 'DOMAIN-SUFFIX,taobao.com'
   - 'DOMAIN-SUFFIX,tmall.com'
+
+  # Alipay / Payment
   - 'DOMAIN-SUFFIX,alipay.com'
   - 'DOMAIN-SUFFIX,alipayobjects.com'
   - 'DOMAIN-SUFFIX,alipay.com.cn'
   - 'DOMAIN-SUFFIX,alipaylog.com'
   - 'DOMAIN-SUFFIX,alipaycdn.com'
   - 'DOMAIN-SUFFIX,alipaydev.com'
+
+  # DingTalk
   - 'DOMAIN-SUFFIX,dingtalk.com'
   - 'DOMAIN-SUFFIX,dingtalkapps.com'
+
+  # Youku / UC
   - 'DOMAIN-SUFFIX,youku.com'
+
+  # JD Group
   - 'DOMAIN-SUFFIX,jd.com'
   - 'DOMAIN-SUFFIX,360buy.com'
   - 'DOMAIN-SUFFIX,jdcloud.com'
   - 'DOMAIN-SUFFIX,jdcdn.com'
   - 'DOMAIN-SUFFIX,jdimg.com'
+
+  # Baidu Group
   - 'DOMAIN-SUFFIX,baidu.com'
   - 'DOMAIN-SUFFIX,baidu.cn'
   - 'DOMAIN-SUFFIX,bdstatic.com'
@@ -76,6 +117,8 @@ payload:
   - 'DOMAIN-SUFFIX,baiducontent.com'
   - 'DOMAIN-SUFFIX,pcs.baidu.com'
   - 'DOMAIN-SUFFIX,yun.baidu.com'
+
+  # ---- NetEase Group ----
   - 'DOMAIN-SUFFIX,163.com'
   - 'DOMAIN-SUFFIX,netease.com'
   - 'DOMAIN-SUFFIX,126.com'
@@ -83,6 +126,8 @@ payload:
   - 'DOMAIN-SUFFIX,netease.im'
   - 'DOMAIN-SUFFIX,music.163.com'
   - 'DOMAIN-SUFFIX,mail.163.com'
+
+  # ---- ByteDance Group ----
   - 'DOMAIN-SUFFIX,byteimg.com'
   - 'DOMAIN-SUFFIX,ibytedtos.com'
   - 'DOMAIN-SUFFIX,iesdouyin.com'
@@ -109,7 +154,11 @@ payload:
   - 'DOMAIN-SUFFIX,bytecdn.cn'
   - 'DOMAIN-SUFFIX,bytecenter.com'
   - 'DOMAIN-SUFFIX,byteintlapi.com'
+
+  # ---- Innolight Group ----
   - 'DOMAIN-KEYWORD,innolight'
+
+  # ---- Other Common Services ----
   - 'DOMAIN-SUFFIX,zhihu.com'
   - 'DOMAIN-SUFFIX,xiaohongshu.com'
   - 'DOMAIN-SUFFIX,bilibili.com'
@@ -151,9 +200,13 @@ payload:
   - 'DOMAIN-SUFFIX,ksyun.com'
   - 'DOMAIN-SUFFIX,dnspod.cn'
   - 'DOMAIN-SUFFIX,cloudflare-cn.com'
+
+  # ---- GLM ----
   - 'DOMAIN-SUFFIX,z.ai'
   - 'DOMAIN-SUFFIX,api.z.ai'
   - 'DOMAIN-SUFFIX,bigmodel.cn'
+
+  # ---- Apple Music ----
   - 'DOMAIN,cma2.itunes.apple.com'
   - 'DOMAIN,gsa.itunes.apple.com'
   - 'DOMAIN,metrics.apple.com'

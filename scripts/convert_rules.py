@@ -29,47 +29,55 @@ def convert_surge_to_clash():
         
         print(f"Converting {filename} -> {os.path.basename(output_path)}")
         
-        headers = []
-        rules = []
-        
         with open(file_path, 'r', encoding='utf-8') as f:
             lines = f.readlines()
+        
+        with open(output_path, 'w', encoding='utf-8') as f:
+            # Separate header comments from body
+            header_comments = []
+            body_lines = []
+            is_header = True
             
-            # Simple parser
             for line in lines:
                 stripped = line.strip()
+                if is_header:
+                    if not stripped: 
+                        header_comments.append(line)
+                    elif stripped.startswith('#') or stripped.startswith(';'):
+                        header_comments.append(line)
+                    else:
+                        is_header = False
+                        body_lines.append(line)
+                else:
+                    body_lines.append(line)
+            
+            # Write Header
+            for line in header_comments:
+                f.write(line)
+            
+            f.write("payload:\n")
+            
+            # Write Body
+            for line in body_lines:
+                stripped = line.strip()
                 if not stripped:
+                    f.write(line) # Preserve empty lines
                     continue
                 
                 if stripped.startswith('#') or stripped.startswith(';'):
-                    # Keep headers/comments that appear at the top or generally preserve comments?
-                    # For YAML payload format, comments inside the list are tricky.
-                    # Best to keep top-level comments as header, ignore inline comments for simplicity
-                    # unless we want to be very sophisticated.
-                    # Let's just preserve the top header block.
-                    if not rules: 
-                        headers.append(stripped)
+                    # Indent comments inside payload
+                    f.write(f"  {stripped}\n")
                 else:
-                    # It's a rule
-                    # Some Surge rules might have comments at the end of the line, e.g. "DOMAIN,x,DIRECT # comment"
-                    # But usually .list files are clean.
-                    # We'll just take the line content.
-                    rules.append(stripped)
+                    # Filter unsupported rules for Clash Rule Providers
+                    # Clash Rule Providers typically support: DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD, IP-CIDR, IP-CIDR6, CLASSICAL
+                    # PROCESS-NAME and USER-AGENT are usually strictly local rules
+                    if stripped.startswith('PROCESS-NAME') or stripped.startswith('USER-AGENT'):
+                        print(f"  [WARN] Skipping unsupported rule for Clash provider: {stripped}")
+                        f.write(f"  # [SKIPPED] {stripped}\n")
+                        continue
 
-        # Write YAML
-        with open(output_path, 'w', encoding='utf-8') as f:
-            # Write headers
-            if headers:
-                for h in headers:
-                    f.write(f"{h}\n")
-            
-            f.write("payload:\n")
-            for rule in rules:
-                # Quote the rule to be safe, though not strictly required for simple domains
-                # But simple domains don't need quotes. Complex chars might.
-                # Let's check if it contains special chars.
-                # Single quotes are safe for most things except single quotes.
-                f.write(f"  - '{rule}'\n")
+                    # It's a rule
+                    f.write(f"  - '{stripped}'\n")
 
     print("Conversion complete.")
 
