@@ -1,0 +1,16 @@
+# ==========================
+# Netflix Services
+# ==========================
+# ---- Core ----
+payload:
+  - 'DOMAIN-SUFFIX,netflix.com'
+  - 'DOMAIN-SUFFIX,netflix.net'
+  - 'DOMAIN-SUFFIX,nflxext.com'
+  - 'DOMAIN-SUFFIX,nflximg.com'
+  - 'DOMAIN-SUFFIX,nflximg.net'
+  - 'DOMAIN-SUFFIX,nflxso.net'
+  - 'DOMAIN-SUFFIX,nflxvideo.net'
+  - 'DOMAIN-SUFFIX,fast.com'
+  - 'DOMAIN-SUFFIX,prod.fastly.netflix.net'
+  - 'DOMAIN-SUFFIX,nflxstatus.com'
+  - 'DOMAIN-SUFFIX,nflxsearch.net'

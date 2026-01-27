@@ -1,0 +1,9 @@
+# ==========================
+# Claude / Anthropic
+# ==========================
+# ---- Core ----
+payload:
+  - 'DOMAIN-SUFFIX,claude.ai'
+  - 'DOMAIN-SUFFIX,anthropic.com'
+  - 'DOMAIN-SUFFIX,anthropiccdn.com'
+  - 'DOMAIN-SUFFIX,anthropic-cdn.com'

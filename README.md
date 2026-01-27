@@ -1,50 +1,62 @@
-# surge-list
+# Proxy Rules
 
 ## 项目简介
 
-这是一个 Surge 规则列表项目，提供了多个针对不同服务的规则配置文件，方便在 Surge 中使用。
+这是一个通用的代理规则列表项目，支持 **Surge** 和 **Clash** (包括 Clash Party, Clash Verge, Clash.Meta 等客户端)。
+项目以 Surge 格式为核心维护，并通过脚本自动生成兼容 Clash 的 YAML 规则集。
 
 ## 目录结构
 
 ```
-surge-list/
-├── ruleset/          # 规则列表目录
-│   ├── blocked.list  # 黑名单规则
-│   ├── claude.list   # Claude 相关规则
-│   ├── google.list   # Google 相关规则
-│   ├── netflix.list  # Netflix 相关规则
-│   ├── openai.list   # OpenAI 相关规则
-│   ├── telegram.list # Telegram 相关规则
-│   └── unblock.list  # 白名单规则
-├── example.conf      # 示例配置文件
-├── hostname.txt      # 主机名列表
-└── README.md         # 项目说明文件
+proxy-rules/
+├── surge/            # Surge 规则列表 (源文件)
+│   ├── google.list
+│   └── ...
+├── clash/            # Clash 规则列表 (自动生成的 YAML 产物)
+│   ├── google.yaml
+│   └── ...
+└── scripts/          # 工具脚本
+    └── convert_rules.py
 ```
-
-## 规则列表说明
-
-- **blocked.list** - 黑名单规则，用于拦截不需要的网站或服务
-- **claude.list** - Claude 相关规则，优化 Claude 的访问
-- **google.list** - Google 相关规则，优化 Google 服务的访问
-- **netflix.list** - Netflix 相关规则，优化 Netflix 的访问
-- **openai.list** - OpenAI 相关规则，优化 OpenAI 服务的访问
-- **telegram.list** - Telegram 相关规则，优化 Telegram 的访问
-- **unblock.list** - 白名单规则，用于允许特定的网站或服务
 
 ## 使用方法
 
-### 本地使用
+### Surge
 
-通过 iCloud/Surge 路径访问本地的规则列表文件。
+在配置文件的 `[Rule]` 字段中引用 `surge/` 目录下的 `.list` 文件。
 
-### 远程使用
+**示例：**
+```ini
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/your-username/proxy-rules/main/surge/google.list,Proxy
+```
 
-通过 URL 访问远程的规则列表文件。
+### Clash / Clash Party
 
-## 示例配置
+在配置文件的 `rule-providers` 字段中引用 `clash/` 目录下的 `.yaml` 文件。
 
-`example.conf` 文件提供了一个简单的配置示例，您可以参考它来设置您自己的 Surge 配置。
+**示例：**
+```yaml
+rule-providers:
+  google:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/your-username/proxy-rules/main/clash/google.yaml"
+    path: ./ruleset/google.yaml
+    interval: 86400
 
-## 其他说明
+rules:
+  - RULE-SET,google,Proxy
+```
 
-- **hostname.txt** - 包含主机名列表，可用于规则配置参考
+## 维护与更新
+
+本项目使用 Python 脚本将 Surge 规则转换为 Clash 规则。如果你修改了 `surge/` 下的文件，请运行以下命令更新 `clash/` 下的文件：
+
+```bash
+python scripts/convert_rules.py
+```
+
+## 项目迁移说明
+
+如果你是该项目的维护者，请在完成配置后将项目根目录名称修改为 `proxy-rules` 以匹配新的项目定位。
