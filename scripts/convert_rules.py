@@ -25,7 +25,7 @@ def convert_surge_to_clash():
     for file_path in list_files:
         filename = os.path.basename(file_path)
         name_without_ext = os.path.splitext(filename)[0]
-        output_path = os.path.join(clash_dir, f"{name_without_ext}.yaml")
+        output_path = os.path.join(clash_dir, f"{name_without_ext}.yml")
         
         print(f"Converting {filename} -> {os.path.basename(output_path)}")
         

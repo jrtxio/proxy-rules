@@ -33,7 +33,7 @@ RULE-SET,https://raw.githubusercontent.com/your-username/proxy-rules/main/surge/
 
 ### Clash / Clash Party
 
-在配置文件的 `rule-providers` 字段中引用 `clash/` 目录下的 `.yaml` 文件。
+在配置文件的 `rule-providers` 字段中引用 `clash/` 目录下的 `.yml` 文件。
 
 **示例：**
 ```yaml
