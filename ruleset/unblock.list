@@ -153,6 +153,12 @@ DOMAIN-SUFFIX,bytecdn.cn
 DOMAIN-SUFFIX,bytecenter.com
 DOMAIN-SUFFIX,byteintlapi.com
 
+# ---- Innolight Group ----
+DOMAIN-SUFFIX,innolight.com
+DOMAIN-SUFFIX,innolight.cn
+DOMAIN-SUFFIX,innolight.net
+DOMAIN-SUFFIX,innolight.com.cn
+
 # ---- Other Common Services ----
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,xiaohongshu.com
