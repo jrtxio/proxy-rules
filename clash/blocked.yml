@@ -3,6 +3,7 @@
 # ==========================
 # ---- Social & Communication ----
 payload:
+  - 'DOMAIN-SUFFIX,immersivetranslate.com'
   - 'DOMAIN-SUFFIX,facebook.com'
   - 'DOMAIN-SUFFIX,fb.com'
   - 'DOMAIN-SUFFIX,messenger.com'
