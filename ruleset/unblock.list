@@ -196,7 +196,7 @@ DOMAIN-SUFFIX,ksyun.com
 DOMAIN-SUFFIX,dnspod.cn
 DOMAIN-SUFFIX,cloudflare-cn.com
 
-# ---- Zhiyuan / GLM ----
+# ---- GLM ----
 DOMAIN-SUFFIX,z.ai
 DOMAIN-SUFFIX,api.z.ai
 DOMAIN-SUFFIX,bigmodel.cn
@@ -209,3 +209,6 @@ DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,store.apple.com
+
+# ---- Immersive Translate ----
+DOMAIN-SUFFIX,immersivetranslate.com
