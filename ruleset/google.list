@@ -36,8 +36,3 @@ DOMAIN-SUFFIX,googlevideo.com
 # ---- Catch-All ----
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,antigravity
-
-# ---- ByteDance API for Antigravity ----
-DOMAIN,icube-api-sg.tiktok-row.net
-DOMAIN,icube-api.bytedance.net
-
