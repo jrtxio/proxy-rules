@@ -53,6 +53,7 @@ payload:
   - 'DOMAIN-SUFFIX,pub.dev'
   - 'DOMAIN-SUFFIX,dart.dev'
   - 'DOMAIN-KEYWORD,v2ex'
+  - 'DOMAIN-SUFFIX,linux.do'
 
   # ---- Cloud / Tools ----
   - 'DOMAIN-SUFFIX,github.com'
