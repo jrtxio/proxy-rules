@@ -5,6 +5,10 @@
 # ---- Immersive Translate ----
 DOMAIN-SUFFIX,immersivetranslate.com
 
+# ---- GLM ----
+DOMAIN-SUFFIX,z.ai
+DOMAIN-SUFFIX,api.z.ai
+
 # ---- Social & Communication ----
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fb.com

@@ -198,11 +198,6 @@ payload:
   - 'DOMAIN-SUFFIX,dnspod.cn'
   - 'DOMAIN-SUFFIX,cloudflare-cn.com'
 
-  # ---- GLM ----
-  - 'DOMAIN-SUFFIX,z.ai'
-  - 'DOMAIN-SUFFIX,api.z.ai'
-  - 'DOMAIN-SUFFIX,bigmodel.cn'
-
   # ---- Apple Music ----
   - 'DOMAIN,cma2.itunes.apple.com'
   - 'DOMAIN,gsa.itunes.apple.com'
