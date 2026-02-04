@@ -60,15 +60,11 @@ payload:
   - 'DOMAIN-SUFFIX,linux.do'
 
   # ---- Cloud / Tools ----
-  - 'DOMAIN-SUFFIX,github.com'
-  - 'DOMAIN-SUFFIX,raw.githubusercontent.com'
-  - 'DOMAIN-SUFFIX,github.githubassets.com'
+  - 'DOMAIN-KEYWORD,github'
   - 'DOMAIN-SUFFIX,gitlab.com'
   - 'DOMAIN-SUFFIX,formulae.brew.sh'
   - 'DOMAIN-SUFFIX,brew.sh'
 
   # ---- GitHub Copilot ----
   - 'DOMAIN-SUFFIX,githubcopilot.com'
-  - 'DOMAIN-SUFFIX,copilot.githubusercontent.com'
-  - 'DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com'
   - 'DOMAIN-SUFFIX,zread.ai'
