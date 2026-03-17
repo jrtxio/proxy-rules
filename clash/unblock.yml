@@ -78,6 +78,7 @@ payload:
   - 'DOMAIN-SUFFIX,aliyuncs.com'
   - 'DOMAIN-SUFFIX,alicloud.com'
   - 'DOMAIN-SUFFIX,alipan.com'
+  - 'DOMAIN-SUFFIX,modelscope.cn'
 
   # Alibaba CDN / OSS
   - 'DOMAIN-SUFFIX,alicdn.com'
